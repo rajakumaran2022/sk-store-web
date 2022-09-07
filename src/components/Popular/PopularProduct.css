@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.f-header {
+  width: 70vh;
+  margin: 0 auto;
+}
+.f-header span {
+  color: #ff6600;
+}
+.f-header p {
+  color: #222;
+}
+.f-header i {
+  color: #8c8c8c;
+  font-size: 40px;
+}
+.icons-filter ul {
+  display: flex;
+  align-items: center;
+}
+.icons-filter span {
+  padding-right: 20px;
+}
+.icons-filter {
+  margin-bottom: 3rem;
+}

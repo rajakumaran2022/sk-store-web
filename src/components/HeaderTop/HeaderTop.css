@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+.header-top {
+  background-color: #1b1b1b;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  position: relative;
+}
+.top-left span {
+  font-size: 14px;
+}
+.call {
+  padding-left: 30px;
+}
+.top-left i {
+  font-size: 14px;
+  padding-right: 10px;
+}
+.top-right {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+#icons {
+  font-size: 18px;
+  color: #fff;
+  padding-right: 30px;
+ 
+}
+.cart-counter {
+  width: 16px;
+  height: 16px;
+  background-color: #ff6600;
+  font-size: 11px;
+  position: absolute;
+  text-align: center;
+  border-radius: 50%;
+  left: 30%;
+  top: 0px;
+}
+/* #id{
+  position: relative;
+} */
+.card-login {
+  display: none;
+  position: absolute;
+  left: 73%;
+  top:   -60%;
+  width: 18rem;
+  height: 18rem;
+  padding: 25px 20px;
+  background-color: #fff;
+  color: grey;
+}
+#username {
+  width: 15rem;
+  height: 30px;
+  border: 1px solid #d3d3d3;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+#u-hover {
+  position: absolute;
+  left: 240px;
+}
+#password {
+  width: 15rem;
+  height: 30px;
+  border: 1px solid #d3d3d3;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+#p-hover {
+  position: absolute;
+  left: 240px;
+}
+.register {
+  border: 1px solid black;
+  color: #959595;
+  background-color: #fff;
+  padding: 5px 25px;
+  margin-right: 10px;
+}
+.login {
+  border: 1px solid black;
+  color: #959595;
+  background-color: #fff;
+  padding: 5px 25px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.connect {
+  text-align: end;
+}
+.login-icons i {
+  padding: 0 10px;
+}
+#user:hover > .card-login {
+  display: block;
+}
+.shopping-cart:hover > .cart-message {
+  display: block;
+}
+.shopping-cart {
+  position: relative;
+}
+.cart-message {
+  display: none;
+  position: absolute;
+  color: black;
+  width: 13rem;
+  left: -400%;
+  top: 60px;
+  background-color: #fff;
+  height: auto;
+  padding: 15px 20px;
+}
+.search-input {
+  display: none;
+  position: absolute;
+  left: 85%;
+  top: 7%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.search:hover > .search-input {
+  display: block;
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .shopping-cart{
+    display:flex;
+    align-items: stretch;
+  }
+  .divider {
+    display: none;
+  }
+  .mail span{
+    display: none;
+  }
+  #user{
+    display: none;
+  }
+  .search{
+    display: none;
+  }
+}

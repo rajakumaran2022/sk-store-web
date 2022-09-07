@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.newfull-content img {
+  max-width: 100%;
+}
+.newfull-content p {
+  font-size: 14px;
+  margin: 0;
+}
+.newfull-content span {
+  font-size: 14px;
+  color: #ff6600;
+}
+.newfull-card {
+  width: 715px;
+  height: 700px;
+
+  text-align: center;
+  background-color: yellow;
+  position: relative;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+/* #f4f4f4; */
+.newfull-overlay {
+  display: none;
+  position: absolute;
+  top: 40%;
+  background-color: #ffffff;
+  width: 715px;
+  height: 48px;
+}
+.newshopping {
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.newlike {
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.neweye {
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  margin-inline: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.newshopping:hover {
+  color: #ff6600;
+}
+.newlike:hover {
+  color: #ff6600;
+}
+.neweye:hover {
+  color: #ff6600;
+}
+.newfull-card:hover {
+  opacity: 0.7;
+  transform: scaley(1.02);
+}
+.newfull-card:hover .newfull-overlay {
+  display: block;
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .newfull-card {
+    max-width: 100%;
+  }
+}

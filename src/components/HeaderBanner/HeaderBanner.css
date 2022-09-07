@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-banner h1 {
+  font-size: 116px;
+  font-weight: 700;
+  color: #ecd116;
+}
+.header-banner h2 {
+  font-size: 100px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.header-banner {
+  background-image: url(./img/post-37.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 140vh;
+  width: 100%;
+  padding-top: 18rem;
+  padding-right: 8rem;
+  position: relative;
+}
+/* .banner-content {
+  position: absolute;
+} */
+.banner-button {
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #1b1b1b;
+  padding: 10px 20px;
+}
+.slider {
+  position: absolute;
+  width: 13rem;
+  height: 140vh;
+  padding-top: 3rem;
+  left: 7.2%;
+  top: 0%;
+  background-color: #ffffff;
+}
+.slider-img img {
+  width: 130px;
+  height: 110px;
+  margin: 0 34px;
+  margin-bottom: 4rem;
+}
+.nav-item li {
+  list-style: none;
+  font-size: 14px;
+  color: #2a2a2a;
+}
+.nav-item li:hover {
+  padding-left: 10px;
+}
+.nav-item a {
+  text-decoration: none;
+}
+.nav-item {
+  padding-left: 22px;
+  padding-right: 22px;
+  height: 43px;
+  width: 190px;
+  font-weight: lighter;
+}
+.toggle-nav {
+  padding-bottom: 3rem;
+}
+#nav-item {
+  background-color: #1b1b1b;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+#nav-item li {
+  color: #fff;
+}
+#slider-footer a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #2a2a2a;
+  line-height: 30px;
+}
+#sf-link a:hover {
+  color: #f60;
+}
+.arrow {
+  color: #f60;
+}
+.h-home {
+  display: none;
+  position: absolute;
+  left: 101%;
+  top: 21%;
+  background-color: #fff;
+  width: 15rem;
+  height: 14rem;
+  border: 1px solid #fff;
+  box-shadow: 0 0 4px solid black;
+  line-height: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#h-shop {
+  position: absolute;
+  display: none !important;
+  left: 101%;
+  top: 26%;
+  background-color: #fff;
+  width: 55rem;
+  height: 34rem;
+  border: 1px solid #fff;
+  box-shadow: 0 0 4px solid black;
+  line-height: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.h-home a li {
+  font-size: 17px;
+}
+.h-home a li:hover {
+  color: #f60;
+}
+#home:hover .h-home {
+  display: block;
+}
+#shop:hover #h-shop {
+  display: block !important;
+}
+#h-shop h3 {
+  font-size: 20px;
+}
+#h-shop hr {
+  width: 40px;
+  color: #f60;
+  height: 4px !important;
+}
+.h-img img {
+  width: 11rem;
+  height: 25rem;
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .slider {
+    top: -250%;
+  }
+  .header-banner h1 {
+    font-size: 73px;
+  }
+  .header-banner h2 {
+    font-size: 50px;
+  }
+}

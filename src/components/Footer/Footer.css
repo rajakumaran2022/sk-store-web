@@ -1,0 +1,28 @@
+.footer {
+  background-color: #1b1b1b;
+  color: #ffffff;
+  padding: 55px 20px 15px;
+}
+.footer-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  place-items: center;
+}
+.footer li a {
+  color: #7a7a7a;
+}
+.footer li a:hover {
+  color: #ff6600;
+}
+.footer p {
+  color: #7a7a7a;
+}
+.footer h4 {
+  padding-bottom: 20px;
+}
+.f-1 {
+  width: 15rem;
+}
+.footer ul {
+  padding: 0;
+}

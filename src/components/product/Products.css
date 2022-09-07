@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  place-items: center;
+}
+.card {
+  width: 18rem;
+  height: 18rem;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 3rem;
+  margin: 0 auto;
+  border: none;
+}
+.card-items img {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 4rem;
+}
+.card-items p {
+  font-size: 14px;
+  margin: 0;
+}
+.card-items span {
+  color: #ff6600;
+}
+.addCart {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid #222;
+  background-color: #ffffff;
+  text-align: center;
+  margin-right: 10px;
+}
+.watchList {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #222;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+}
+.overlay {
+  position: absolute;
+  top: 69%;
+  left: 32%;
+  text-align: center;
+  display: none;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card:hover .overlay {
+  display: block;
+}
+.addCart:hover {
+  color: #ffffff;
+  background-color: #ff6600;
+  border: none;
+  margin-bottom: 20px;
+}
+.watchList:hover {
+  color: #ffffff;
+  background-color: #ff6600;
+  border: none;
+  margin-bottom: 20px;
+}

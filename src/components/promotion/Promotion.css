@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.promotion {
+  background-image: url(./promo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 78vh;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.pro-content {
+  color: #ffffff;
+  padding-top: 25vh;
+}
+.pro-content p {
+  width: 40rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.pro-content h3 {
+  font-size: 40px;
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .pro-content p{
+    width: 30rem;
+  }
+}

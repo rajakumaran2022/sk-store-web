@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.f-header {
+  text-align: center;
+}
+.f-header span {
+  color: #ff6600;
+}
+.f-header p {
+  width: 35rem;
+  color: #222;
+}
+.f-header i {
+  color: #8c8c8c;
+  font-size: 40px;
+}

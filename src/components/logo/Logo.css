@@ -1,0 +1,11 @@
+.logo1 {
+  background-color: #1b1b1b;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.logo-grid{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+ 
+}

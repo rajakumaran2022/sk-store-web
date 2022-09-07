@@ -1,0 +1,14 @@
+.store {
+  background-color: #f4f4f4;
+}
+#store {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.store h2 {
+  font-size: 55px;
+  color: #363636;
+}
+.store p {
+  line-height: 28px;
+}
